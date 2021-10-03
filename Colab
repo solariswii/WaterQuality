@@ -1,1 +1,29 @@
+Create Jupyter Notebook
+Many Data Science Library installed
+CPU, GPU and TPU supported
 
+https://colab.research.google.com
+https://www.google.com/drive
+  Add Google Colab in by: google drive -> New -> More -> Connect More Apps -> Google Colaboratory
+
+Get data from:
+  public link: !wget https://www..../*.cvs
+    !ls
+  Google drive: 
+    Click Mount Drive, following two lines are created. Run the following lines.
+      from google.colab import drive
+      drive.mount('/content/drive')
+    A authentic link showed up, open a new tab to login google drive, then copy the authentic code,
+    past into the colab, enter.
+    data files will show
+  Github link: !git clon https://github.com/.../*.git
+  local drive:
+    Click Upload button to upload data file, but data will be deleted after run tiee restart.
+    
+    
+  Execute External .py File
+    from google.colab import drive
+    drive.mount
+    !python /content/drive/My Drive/*.py
+    
+    
